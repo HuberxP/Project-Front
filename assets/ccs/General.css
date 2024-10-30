@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}   
+h2{
+    text-align: center;
+}
+
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el contenido en línea */
+    gap: 50px; /* Espacio entre la imagen y el título */
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.LogoGif {
+    width: 80px; /* Tamaño de las imágenes del logo */
+    height: auto;
+}
+.EstructuraInicio{
+
+    padding: 0;
+    margin: 0;
+    background-color: #1669bc;
+    text-align: center;
+    display: inline-flex;
+    
+    
+}
+
+.sobre-mi{
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    border: #000000 dashed;
+    min-height: 50dvh;
+    min-width: 100dvh;
+
+}
+
+
+.text{
+    padding-left: 70px;
+    padding-right: 70px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    size: 20px;
+    text-align: justify;
+}
+
+/*Posicionamineto de footer*/
+
+.div-main{
+    display:grid;
+    min-height: 100dvh;
+    grid-template-rows: 
+        auto 1fr auto;
+    
+}
+
+   
+/* Estilo básico del menú */
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #18204f;
+    text-align: left;
+    display:flexbox;
+    border-radius: 10px;
+}
+
+.section1 {
+    padding: 20px;
+}
+
+.menu > li {
+    position: relative ;
+    display:inline-flex;
+    
+    
+}
+
+.menu > .li-actividades {
+    position: absolute ;
+    display:inline-flex;
+    right: 50px;
+    
+}
+.menu > li > a {
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/* Estilos del submenú */
+.submenu {
+    display: none; /* Oculto por defecto */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #000000;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 10px;
+   
+}
+
+.submenu li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Mostrar el submenú al pasar el ratón */
+.menu > li:hover .submenu {
+    display: block;
+}
+
+/* Colores al pasar el ratón */
+.menu > li > a:hover,
+.submenu li a:hover {
+    background-color: #a61f1f;
+}
+
+footer{
+    text-align: center;
+    display: flexbox;
+    background-color: black;
+    border-radius: 10px;
+    
+
+}

@@ -1,0 +1,143 @@
+
+
+.contenedor p{
+    font-size: 30;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.p-white{
+    color: white;
+    
+}
+.contenedor{
+    width: 400px;
+    height: 500px;
+    border: 2px dashed black;
+    background: rgb(8, 0, 0);
+    position: relative;
+    left: 38%;
+    bottom: 50%;
+}
+
+/*
+[class="box"]{
+    width: 120px;
+    height: 50px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+   
+}
+*/
+
+.box-class1{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(95, 208, 75);
+    left:0;
+    top:0;
+    border-radius: 5%;
+    
+}
+.box-class2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(95, 208, 75);
+    right:0;
+    top:0;
+    border-radius: 5%;
+    
+}
+.box-class3{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(95, 208, 75);
+    left:0;
+    bottom: 0;
+    border-radius: 5%;
+    
+}
+.box-class4{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(95, 208, 75);
+    right:0;
+    bottom: 0;
+    border-radius: 5%;
+}
+
+.box-class5{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(95, 208, 75);
+    left:45%;
+    bottom: 50%;
+    border-radius: 5%;
+    
+    
+}
+
+/*ACTIVIDAD 2*/
+
+.main-z{
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    border: 2px dashed black;
+    background: rgb(8, 0, 0);
+    position: relative;
+    left: 38%;
+    bottom: 50%;
+    border-radius: 20px;
+}
+
+.capa1{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: rgb(105, 202, 226);
+    left:50px;
+    top: 50px;
+    border-radius: 5%;
+    z-index: 20;
+    border: 2px white dashed;
+  
+    
+    
+
+}
+
+.capa2{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: rgb(95, 208, 75);
+    left:100px;
+    bottom: 100px;
+    border-radius: 5%;
+    z-index: 10;
+    border: 2px white dashed;
+ 
+   
+    
+
+}
+
+.capa1 > p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.capa2 > p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}

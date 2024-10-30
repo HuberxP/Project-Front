@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de HTML5 Semántico</title>
+    <link rel="stylesheet" href="assets/ccs/Estilos.css">
+    <link rel="stylesheet" href="assets/ccs/General.css">
+</head>
+
+
+<body>
+
+    <div class="div-main">
+
+        <!-- Encabezado principal con el título del sitio y la navegación -->
+        <header>
+            <div class="header-content">
+                <img class="LogoGif" src="./assets/images/Logo2.gif" alt="Logo izquierdo" />
+                <h1>Mi Sitio Web</h1>
+                <img class="LogoGif" src="./assets/images/Logo2.gif" alt="Logo derecho" />
+            </div>
+
+            <nav>
+                <ul class="menu">
+                    <li><a href="#home">Inicio</a></li>
+                    <li class="li-actividades">
+                        <a href="#servicios">Actividades</a>
+                        <!-- Submenú desplegable -->
+                        <ul class="submenu">
+                            <li><a href="/pages/Page1.html">Posicionamiento CCS</a></li>
+                            <li><a href="/pages/Actividad1.html">Actividad 1</a></li>
+
+                            
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Contenido principal de la página -->
+        <main>
+            <!-- Sección de bienvenida -->
+            <section class="inicio">
+                <h2>Hola, bienvenido</h2>
+                <p class="text">¡Hola y gracias por visitar mi espacio! Este sitio lo he creado con mucho entusiasmo para compartir con ustedes mis proyectos,ideas y todo aquello relcionado con el curso. Si tienes alguna pregunta, comentario o sugerencia, no dudes en escribirme. ¡Estoy aquí para escucharte y mejorar siempre! Así que ponte cómodo, navega a tu gusto, y disfruta de todo lo que he preparado. ¡Gracias por estar aquí!</p>
+            </section>
+
+            <div class="EstructuraInicio">
+
+                <div class="sobre-mi">
+
+                    <!-- Sección "Sobre mí" -->
+                    <section >
+                        <h2>Sobre mí</h2>
+                        <p>Me dedico al desarrollo web y estoy aprendiendo nuevas tecnologías.</p>
+                    </section>
+                </div>
+                
+                <div class="sobre-mi">
+                    <!-- Sección de contacto (puedes añadir contenido aquí en el futuro) -->
+                    <section>
+                        <h2>Sugerencia</h2>
+                        <p>Para visualizar todas las atividades puedes desplazarte por el desplegable que esta en la superior derecha :)</p>
+                    </section>
+                </div>
+
+            </div>    
+        </main>
+
+        <!-- Pie de página con derechos de autor -->
+        <footer>
+            <p class="p-white">&copy; 2024 Huber Hernandez</p>
+        </footer>
+    </div>    
+
+</body>
+</html>
